@@ -1,4 +1,5 @@
 # Luke's build of st - the simple (suckless) terminal
+## with Dukeatron's colours and fonts (and other minor stuff)
 
 The [suckless terminal (st)](https://st.suckless.org/) with some additional
 features that make it literally the best terminal emulator ever:
@@ -83,7 +84,29 @@ To be clear about the color settings:
 
 Note that when you run `wal`, it will negate the transparency of existing windows, but new windows will continue with the previously defined transparency.
 
+### Updated Colours
+
+- This build will use a variety of mixed and matched colours from the [Catppuccin](https://github.com/catppuccin/catppuccin) palette.
+- The cursor uses the colour popularly known as 'Tiffany Blue'.
+- If there are Xresources colours defined, those will take priority.
+- But if 'wal' has run in your session, its colours will take priority.
+
+Note that when you run 'wal', it will negate the transparency of existing windows, but new windows will continue with the previously defined transparency.
+
+**Best used with [starship](https://starship.rs/)**
+
 ## Contact
 
 - Luke Smith <luke@lukesmith.xyz>
 - [https://lukesmith.xyz](https://lukesmith.xyz)
+
+- Discord @dukeatron
+- [my website](https://dukeatron.github.io/Dukeatron)
+
+## Credits
+
+- Luke Smith <luke@lukesmith.xyz> for creating the base build
+- [Catppuccin](https://github.com/catppuccin) for the colours
+- [Nerd Fonts](https://nerdfonts.com) for Agave Nerd Font
+- ya boy for putting all this together
+
